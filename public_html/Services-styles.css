@@ -1,0 +1,221 @@
+/*-------Service ----------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.header {
+    background:url(images/image2.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 30em;
+}
+
+nav{
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px  12px;
+    position: relative;
+    font-size: 18pt;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}
+.text-box p{
+    margin: 150px 0 40px;
+    font-size: 35pt;
+    color: #FFFFFF
+}
+
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-------- contact -----------*/
+.header-contact{
+    background:url(images/royalpalace.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 30em;
+    
+}
+.contact{
+    width: 80%;
+    margin: auto;
+    padding-top: 130px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: blue;   
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.contact1 h1{
+    color: blue;
+    font-size: 22px;
+    font-weight: 100;    
+}
+.contact1 p{
+   color: black;
+   font-size: 14px;
+   font-weight: 200;
+   text-align: left;
+}
+.contact2{
+    background-color: lightgoldenrodyellow;
+    width: 50%;
+    height: 20%;
+}
+.contact2 div img{
+    margin : 10px;
+   
+    right: 35px; 
+}
+
+.contact2 h1{
+    color: blue;
+    font-size: 22px;
+    font-weight: 100;    
+}
+.contact2 p{
+   color: black;
+   font-size: 12px;
+   font-weight: 200;
+   text-align: left;
+}
+
+/*-------- about -----*/
+
+.header1{
+    background: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/about2.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 30em;
+}
+
+.aboutUs{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+.about{
+    flex-basis: 48% ;
+    padding: 30px 2px;
+}
+.about h1{
+    margin-left: 5em;
+}
+
+.about img{
+    padding-top: 20px;
+    width: 75%;
+    border-radius: 15px;
+}
+
+/*---------footer----*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background:#EADDC4 ;
+}
+.footer h4{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.imageIcon ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+/*-------- services--*/
+.services{
+     width: 80%;
+    margin: auto;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.services h2{
+     font-size: 30px;
+    font-weight: 600;
+    color: #2d2d68; 
+}
+
+/*--- more----*/
+.header-more{
+    background: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/more.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 30em;
+}
+.more{
+    width: 80%;
+    margin: auto;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.aboutfood p{
+    text-align: center;
+    font-size: 15px;
+    color: #7972a8;
+}
+
+.aboutfood h1{
+    margin-top: 2em;
+     text-align: center;
+    font-size: 25px;
+    color:black;
+}
+.food img{
+     flex-basis: 31%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    width:250px;
+    height: 250px;
+}
